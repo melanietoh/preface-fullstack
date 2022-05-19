@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(252, 239, 222);
+    color: rgb(94, 71, 42);
+    width:  90%;
+    padding-left: 5%;
+    padding-right:  5%;
+}
+#header {
+    text-align: center;
+}
+.left {
+    width: 40%;
+    height: auto;
+    float: left;
+}
+.right {
+    width: 40%;
+    height: auto;
+    float:  right;
+}
+h2 {
+    background-color: rgb(230, 205, 173);
+    padding: 3px;
+}
+img {
+    width: 80%;
+}
+em {
+   color: navy;
+}
+p {
+    font-size:  1.1em;
+}
+li {
+    font-size:  1.1em;
+}
+.photos {
+    height: 220px;
+    width:  auto;
+    padding: 5px;
+}
