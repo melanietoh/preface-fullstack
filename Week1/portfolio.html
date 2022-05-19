@@ -4,27 +4,35 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="portfolio_stylesheet.css">
+        <!-- FontAwesome toolkit import -->
+        <script src="https://kit.fontawesome.com/51b017a2ee.js" crossorigin="anonymous"></script>
         <title>
             Melanie Toh | Preface Online Portfolio
         </title>
     </head>
     <body>
+        <!-- Header with basic information about me -->
         <div id="header">
             <h1>Melanie Toh</h1>
-            <p>Preface Full Stack (Youth) Instructor | <a href="https://github.com/melanietoh/preface-fullstack" target="_blank">Github Link</a> </p>
+            <!-- Hyperlinking certain text and adding an icon-->
+            <p>Preface Full Stack (Youth) Instructor | <a href="https://github.com/melanietoh/preface-fullstack" target="_blank"><i class="fa-regular fa-floppy-disk"></i> Github Link</a> </p>
+
             <hr>
         </div>
 
+        <!-- I split this div into two columns, the left with an 'about me' section and the right with a 'hobbies section' -->
         <div class="boxes">
             <div class="left">
                 <h2>About Me</h2>
-                <p><b>Favourite color: </b> <em>Blue</em></p>
+                <!-- Introducing the bold tag -->
+                <p><b>Favourite color: </b> Blue</p>
                 <p><b>Favourite food: </b> Sushi and Korean BBQ</p>
                 <p><b>Favourite movie: </b> Howl's Moving Castle</p>
                 <img src="https://teeruto.com/wp-content/uploads/2022/01/Howls-Moving-Castle.jpg" alt="Howl's Moving Castle">
             </div>
             <div class="right">
                 <h2>Hobbies:</h2>
+                <!-- An unordered list is used to list out my hobbies -->
                 <ul>
                     <li>Painting</li>
                     <li>Dancing</li>
@@ -38,6 +46,7 @@
         </div> 
         <hr>
 
+        <!-- This div is used to show the programming languages I know and to add some photos from my hackathons and coding projects -->
         <div class="boxes">
             <div>
                 <h2>Programming-related:</h2>
@@ -46,12 +55,11 @@
                     <li>Javascript</li>
                     <li>React Native</li>
                     <li>C++</li>
-                    <li>C</li>
                     <li>Python</li>
                     <li>Java</li>
-                    <li>MySQL</li>
                 </ul>
             </div>
+            <!-- I've added local files to show that the img tag works with personal photos too -->
             <img class="photos" src="athenahacks.JPG" alt="AthenaHacks">
             <img class="photos" src="scope.JPG" alt="Scope Hackathon">
             <img class="photos" src="webproject.JPG" alt="Team Project">

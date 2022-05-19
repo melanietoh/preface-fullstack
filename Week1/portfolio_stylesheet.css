@@ -21,9 +21,11 @@ body {
 h2 {
     background-color: rgb(230, 205, 173);
     padding: 3px;
+    border: 1px solid rgb(94, 71, 42);
 }
 img {
     width: 80%;
+    border: 2px solid rgb(94, 71, 42);
 }
 em {
    color: navy;
@@ -34,8 +36,10 @@ p {
 li {
     font-size:  1.1em;
 }
+/* Shows how CSS attributes can be overwritten */
 .photos {
     height: 220px;
     width:  auto;
     padding: 5px;
+    border: 0px;
 }
